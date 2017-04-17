@@ -12,6 +12,10 @@
 		5988D1BE1EA4C3290096E326 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5988D1BC1EA4C3290096E326 /* Main.storyboard */; };
 		5988D1C01EA4C3290096E326 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5988D1BF1EA4C3290096E326 /* Assets.xcassets */; };
 		5988D1C31EA4C3290096E326 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5988D1C11EA4C3290096E326 /* LaunchScreen.storyboard */; };
+		5988D1CC1EA4C5450096E326 /* bar.png in Resources */ = {isa = PBXBuildFile; fileRef = 5988D1CA1EA4C5450096E326 /* bar.png */; };
+		5988D1CD1EA4C5450096E326 /* tail.png in Resources */ = {isa = PBXBuildFile; fileRef = 5988D1CB1EA4C5450096E326 /* tail.png */; };
+		5988D1CF1EA4CA350096E326 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5988D1CE1EA4CA350096E326 /* GameViewController.swift */; };
+		5988D1D11EA4CA4D0096E326 /* RankingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5988D1D01EA4CA4D0096E326 /* RankingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		5988D1BF1EA4C3290096E326 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5988D1C21EA4C3290096E326 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5988D1C41EA4C3290096E326 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5988D1CA1EA4C5450096E326 /* bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bar.png; sourceTree = "<group>"; };
+		5988D1CB1EA4C5450096E326 /* tail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tail.png; sourceTree = "<group>"; };
+		5988D1CE1EA4CA350096E326 /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		5988D1D01EA4CA4D0096E326 /* RankingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RankingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +46,8 @@
 		5988D1AC1EA4C3290096E326 = {
 			isa = PBXGroup;
 			children = (
+				5988D1D01EA4CA4D0096E326 /* RankingViewController.swift */,
+				5988D1CE1EA4CA350096E326 /* GameViewController.swift */,
 				5988D1B71EA4C3290096E326 /* BarabaraGame */,
 				5988D1B61EA4C3290096E326 /* Products */,
 			);
@@ -54,6 +64,8 @@
 		5988D1B71EA4C3290096E326 /* BarabaraGame */ = {
 			isa = PBXGroup;
 			children = (
+				5988D1CA1EA4C5450096E326 /* bar.png */,
+				5988D1CB1EA4C5450096E326 /* tail.png */,
 				5988D1B81EA4C3290096E326 /* AppDelegate.swift */,
 				5988D1BA1EA4C3290096E326 /* ViewController.swift */,
 				5988D1BC1EA4C3290096E326 /* Main.storyboard */,
@@ -124,8 +136,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				5988D1C31EA4C3290096E326 /* LaunchScreen.storyboard in Resources */,
+				5988D1CD1EA4C5450096E326 /* tail.png in Resources */,
 				5988D1C01EA4C3290096E326 /* Assets.xcassets in Resources */,
 				5988D1BE1EA4C3290096E326 /* Main.storyboard in Resources */,
+				5988D1CC1EA4C5450096E326 /* bar.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,7 +151,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				5988D1BB1EA4C3290096E326 /* ViewController.swift in Sources */,
+				5988D1CF1EA4CA350096E326 /* GameViewController.swift in Sources */,
 				5988D1B91EA4C3290096E326 /* AppDelegate.swift in Sources */,
+				5988D1D11EA4CA4D0096E326 /* RankingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
